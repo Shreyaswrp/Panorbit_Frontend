@@ -14,14 +14,14 @@
 
 .upper-svg
 {
-    background: lightgrey;
-    top: 2px;
+    background: blueviolet;
+    
 }
 
 .blue-bg
 {
-    background-color: blue;
-    height: 200px;
+    background-color: blueviolet;
+    height: 100px;
 }
 
 svg
