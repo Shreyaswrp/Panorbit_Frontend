@@ -1,0 +1,30 @@
+.Container{
+    margin: 0; padding: 0; box-sizing: border-box; overflow: hidden;
+    width: 100vw; height: 100vh;
+}
+
+.curved
+{
+    flex-direction: column;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.upper-svg
+{
+    background: lightgrey;
+    top: 2px;
+}
+
+.blue-bg
+{
+    background-color: blue;
+    height: 200px;
+}
+
+svg
+{
+    margin-top: 2px;
+}
