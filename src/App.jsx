@@ -1,11 +1,17 @@
 import React from 'react';
-import LandingPage from './components/LandingPage'
+import './App.scss';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Profile from './components/Profile';
 
 function App() {
   return (
-    <>
-    <LandingPage/>
-    </>
+    <Router>
+      <Switch>
+        <Route path="/user/:userId" component={Profile} />
+        <Route path="/" component={Home} />
+      </Switch>
+    </Router>
   );
 }
 
