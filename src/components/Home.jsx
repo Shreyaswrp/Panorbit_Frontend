@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { bindActionCreators } from 'redux';
 import * as actions from '../actions';
+import svg from '../assets/curve.svg';
 
 class Home extends Component {
   state = {
@@ -19,6 +20,8 @@ class Home extends Component {
 
   render() {
     return (
+      <div classname="container">
+      <div className="landing-page">
       <div className="page-cont">
         <div className="user-list-cont">
           <div className="list-header">Select an account</div>
@@ -37,6 +40,9 @@ class Home extends Component {
             ))}
           </div>
         </div>
+      </div>
+      </div>
+      <div className="curved">{svg}</div>
       </div>
     );
   }

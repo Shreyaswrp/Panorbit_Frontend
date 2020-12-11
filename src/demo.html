@@ -1,0 +1,44 @@
+<style>
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: red;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.container::before {
+   background: url("https://dzhblogstorage.blob.core.windows.net/public/curve.svg") center bottom no-repeat;
+  bottom: 100%;
+  content: '';
+  height: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.tabs-container {
+  color: white;
+  padding: 1.5rem;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+</style>
+
+
+<div class="container">
+    <div class="tabs-container">
+      
+      <div class="tab-content">
+        <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque optio nobis facilis! Eos iusto ipsam, ducimus itaque laudantium eum esse molestiae cum quo autem ratione veritatis laborum, consectetur ipsa omnis.</p>
+         
+      </div>
+    </div>
+  </div>

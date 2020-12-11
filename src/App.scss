@@ -1,11 +1,11 @@
 .page-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
   
-  .user-list-cont {
+.user-list-cont {
     width: 570px;
     margin: 3rem auto;
     border-radius: 1rem;
@@ -47,7 +47,33 @@
       width: 100%;
     }
   }
+
+  .landing-page
+  {
+    background: blueviolet;
+    height: 286px;
+  }
+
+  .container
+  {
+    position: relative;
+  }
   
+  .curved
+  {
+    background: lightgrey;
+    height: 20px
+  }
+
+  .container .curved::before {
+    background: center bottom no-repeat;
+    bottom: 100%;
+    content: '';
+    height: 200px;
+    position: absolute;
+    width: 100%;
+  }
+
   .profile-cont {
     display: flex;
     align-items: center;
